@@ -1461,9 +1461,9 @@ SphereCollider:
   m_GameObject: {fileID: 598265931}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
-  m_Radius: 0.76
+  m_Radius: 0.6
   m_Center: {x: 0, y: 0.43, z: 0}
 --- !u!82 &598265936
 AudioSource:
@@ -3394,6 +3394,11 @@ PrefabInstance:
     - target: {fileID: 4906828391645816, guid: 38efdaadbfe1d624bbee439cb02e7661, type: 3}
       propertyPath: m_LocalScale.z
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 137976475885954992, guid: 38efdaadbfe1d624bbee439cb02e7661,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38efdaadbfe1d624bbee439cb02e7661, type: 3}
